@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6d6cdafbc6f9484baf258e910d0c02c, type: 3}
+  m_Name: Machine Gun
+  m_EditorClassIdentifier: 
+  weaponName: Machine Gun
+  projectilePrefab: {fileID: 1883347232502301597, guid: d09aca8f7d0c4834d930621655e7440a, type: 3}
+  Weaponsprite: {fileID: 80444976, guid: c09b988f470501342a01563cc0ae278a, type: 3}
+  fireRate: 10
+  projectileSpeed: 10
+  damage: 1
+  spread: 1
+  burstCount: 4
+  burstDelay: 0.5
+  cooldown: -0.0031071538
